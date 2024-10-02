@@ -1,0 +1,7 @@
+button:hover{
+    background-color: yellow;
+    border: 2px dotted red;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 30px;
+}
