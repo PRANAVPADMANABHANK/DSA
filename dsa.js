@@ -1,22 +1,14 @@
-let arr = ['apple', 'orange']
-console.log(arr.length)
-arr.unshift("banana")
-arr.push("avocado")
+const array = [1,2,3,4,5]
 
-
-for(i=arr.length-1;i>=0;i--){
-    console.log(arr[i])
-}      
-
-
-console.log("---------")
-
-
-for (let arr1 of arr){
-    console.log(arr1)
+for(let nums of array){
+    console.log(nums)
 }
 
-console.log("--------")
+array.map((value, index, array)=>{
+    console.log(value)
+})
 
 
-console.log(arr.sort())
+array.forEach((value, index)=>{
+    
+})
