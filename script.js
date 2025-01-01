@@ -4,7 +4,7 @@
 
 // for(i=0;i<arr.length;i++){
 //     console.log(arr[i])
-    
+
 // }
 
 //Array accessing
@@ -31,7 +31,6 @@
 
 // const arr=[10,20,30,40,50]
 
-
 // let index=1
 // for(i=index;i<arr.length;i++){
 //     arr[i]=arr[i+1]
@@ -43,15 +42,15 @@
 
 // for(i=index;i<arr.length;i++){
 //     arr[i]=arr[i+1]
-   
+
 // }
 // arr.length--
 
 // console.log(arr);
 
-let arr1=[10,20,30,40,50,60]
-let arr2=[15,25,35,45,55]
-let arr3=[]
+// let arr1=[10,20,30,40,50,60]
+// let arr2=[15,25,35,45,55]
+// let arr3=[]
 // let index;
 // let searchkey=30
 // for(i=0;i<arr.length;i++){
@@ -69,9 +68,24 @@ let arr3=[]
 // }
 // console.log(arr3);
 
+// arr1.reverse()
+// console.log(arr1)
 
-arr1.reverse()
-console.log(arr1)
+function outerCounter() {
+  let count = 0;
+
+  function innerFunction() {
+    count++;
+
+    console.log(count);
+  }
+  return innerFunction();
+}
+
+outerCounter();
+outerCounter();
+
+
 
 
 
