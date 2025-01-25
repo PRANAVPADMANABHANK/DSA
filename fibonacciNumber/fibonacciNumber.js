@@ -18,7 +18,9 @@
 
 // fibonacci(10)
 
+const fibonacci = (n) =>{
 
-let arr= [0,1]
-arr.unshift(0)
-console.log(arr)
+    return n<0 ? console.log(0):console.log( fibonacci(n-2)+fibonacci(n-1))
+}
+
+fibonacci(5)
